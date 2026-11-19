@@ -181,6 +181,7 @@ private:
 	void activateWithoutToken();
 	void updateMenuState();
 	void updatePixmapIndex();
+	void requestIconUpdate(dbus::DBusPropertyCore& name, dbus::DBusPropertyCore& pixmaps);
 	void onMenuPathChanged();
 
 	DBusStatusNotifierItem* item = nullptr;
